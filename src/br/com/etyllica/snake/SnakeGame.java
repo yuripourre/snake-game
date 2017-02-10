@@ -200,7 +200,7 @@ public class SnakeGame extends Application implements UpdateIntervalListener {
 		if(paused) {
 			g.drawString("PRESS ENTER TO START", 90, 138);
 		} else if (gameOver) {
-			g.drawString(this, "GAME OVER");
+			g.drawString("GAME OVER", this);
 			g.drawString("PRESS ENTER TO RESTART", 90, 138);
 		}
 	}
